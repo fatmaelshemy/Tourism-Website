@@ -211,5 +211,14 @@ function clearSignupForm(){
 
 
 
+//.....................................
 
+
+
+let ProductPrice = document.getElementById("price");
+let retailPrice = document.getElementById("All");
+
+ProductPrice.addEventListener("click",function(){
+    retailPrice += ProductPrice
+});
 
